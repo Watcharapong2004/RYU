@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3d1e1a;
+  color: #000;
+}
+
+header {
+  background-color: #004a96;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav {
+  margin-top: 5px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 0.9em;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.gallery img {
+  margin: 0 5px;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #004a96;
+}
+
+.promo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.promo-image {
+  flex: 1;
+}
+
+.promo-image img {
+  width: 100%;
+  height: auto;
+}
+
+.promo-details {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.promo-details h2 {
+  color: #d70000;
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+.promo-details p {
+  margin: 5px 0;
+}
+
+.promo-details .rating {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #000;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3d1e1a;
+  color: #000;
+}
+
+header {
+  background-color: #004a96;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav {
+  margin-top: 5px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 0.9em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5%; /* กำหนดขนาดปุ่ม */
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* เพิ่มพื้นหลังโปร่งใส */
+  border: none;
+  z-index: 1; /* ให้อยู่ด้านบน */
+}
+
+.carousel-control-prev {
+  left: 10px; /* ตำแหน่งซ้าย */
+}
+
+.carousel-control-next {
+  right: 10px; /* ตำแหน่งขวา */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%; /* ปรับขนาดไอคอน */
+}
